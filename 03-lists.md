@@ -167,15 +167,16 @@ odds: [1, 3, 5, 7]
 
 This is different from how variables worked in lesson 1, and more similar to how a spreadsheet works.
 
-## Turn a string into a list {.challenge}
-
-Use a for-loop to convert the string "hello" into a list of letters:
-
-~~~ {.python}
-["h", "e", "l", "l", "o"]
-~~~
-Hint: You can create an empty list like this:
-
-~~~ {.python}
-my_list = []
-~~~
+> ## Turn a string into a list {.challenge}
+>
+> Use a `for` loop to convert the string `"hello"` into a list of letters.
+> Your program should print out:
+>
+> ~~~ {.output}
+> ["h", "e", "l", "l", "o"]
+> ~~~
+> Hint: You can create an empty list like this:
+>
+> ~~~ {.python}
+> my_list = []
+> ~~~
