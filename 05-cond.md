@@ -86,7 +86,7 @@ We can also combine tests using `and` and `or`.
 `and` is only true if both parts are true:
 
 ~~~ {.python}
-if (1 > 0) and (-1 > 0):
+if 1 > 0 and -1 > 0:
     print('both parts are true')
 else:
     print('one part is not true')
@@ -98,7 +98,7 @@ one part is not true
 while `or` is true if at least one part is true:
 
 ~~~ {.python}
-if (1 < 0) or (-1 < 0):
+if 1 < 0 or -1 < 0:
     print('at least one test is true')
 ~~~
 ~~~ {.output}
